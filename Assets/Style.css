@@ -50,6 +50,9 @@ nav ul li{
     cursor: pointer;
 
 }
+.btn-primary:hover{
+    background-color: rgba(120, 217, 23, 0.842);
+}
 .merg{
     margin-top:10px;
 }
@@ -64,4 +67,33 @@ nav ul li{
     align-items: center;
     text-align: center;
     padding: 80px 20px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.action-section{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 116px;
+
+}
+.action-title{
+    font-size: 42px;
+}
+.text-color{
+    color: rgba(37, 36, 50, 0.5);
+    padding-top: 23px;
+}
+.action-btn{
+    margin-top: 23px;
+}
+.action-text{
+    text-align: left;
+}
+.action-img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
 }
