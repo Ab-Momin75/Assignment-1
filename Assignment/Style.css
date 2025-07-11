@@ -46,7 +46,7 @@ nav ul li{
     color: white;
     border:none;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 10px 10px;
     font-size:16px;
     cursor: pointer;
 
@@ -224,3 +224,22 @@ main{
   font-size: 15px;
   background-color: #fff;
 }
+.closing{
+    margin: 105px 450px;
+}
+.closing-subtitle{
+    text-align: center;
+}
+.links ul{
+    display: flex;
+    justify-content: center;
+    gap:48px ;
+}
+.links ul li{
+    list-style: none;
+}
+.links li a{
+    text-decoration: none;
+    color: #444;
+}
+
